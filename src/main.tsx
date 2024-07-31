@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import Navbar from "./components/navbar.tsx";
 import AppRouter from "./Router.tsx";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       {/* Main page */}
       <AppRouter />
       {/* Footer */}
+      <SpeedInsights />
     </div>
   </React.StrictMode>
 );
