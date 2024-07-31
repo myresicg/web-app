@@ -49,7 +49,7 @@ npm run dev
 2. Show your hand sign to the webcam
 3. The app will detect the sign and translate it to text
 
-### Deployment
+## Deployment
 
 Deployment on Vercel is done automatically when a PR is merged to the main branch.
 You can access the deployed app [https://sign-language-myres.vercel.app/](https://sign-language-myres.vercel.app/)
