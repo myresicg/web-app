@@ -20,7 +20,7 @@ This web application uses your webcam to detect sign language and translate it i
 - **ShadCN**: Provides a consistent and polished set of UI components.
 - **React Camera**: Simplifies the integration of webcam functionality into the React application.
 
-## How to setup
+## How to setup locally
 
 1. Clone the repo
 2. Install the dependencies
@@ -48,3 +48,8 @@ npm run dev
 1. Allow the browser to access the webcam
 2. Show your hand sign to the webcam
 3. The app will detect the sign and translate it to text
+
+### Deployment
+
+Deployment on Vercel is done automatically when a PR is merged to the main branch.
+You can access the deployed app [https://sign-language-myres.vercel.app/](https://sign-language-myres.vercel.app/)
