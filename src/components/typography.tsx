@@ -65,7 +65,6 @@ const Typography: React.ForwardRefRenderFunction<
 
 Typography.displayName = "Typography";
 
-// eslint-disable-next-line react-refresh/only-export-components
 export { Typography, typographyVariants };
 
 // Define h1 to h5 and p with the Typography component
