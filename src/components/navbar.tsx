@@ -136,12 +136,12 @@ export default function Navbar() {
             className="flex gap-4 items-center self-center"
             onClick={() => setShowText((prev) => !prev)}
           >
-            <img src={Logo} width={40} height={40} alt="Logo" />
+            <img src={public/_FREE_-_HDconvert.com__request_logo_-removebg-preview.png} width={40} height={40} alt="Logo" />
             <H1
               className={cn(showText ? "text-white font-black" : "hidden")}
               level="xl"
             >
-              Apps
+              Re-Sign
             </H1>
           </button>
 
