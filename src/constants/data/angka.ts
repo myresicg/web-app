@@ -19,4 +19,7 @@ export const angkaData = [
   { name: "18", image: "/angka/tes.gif" },
   { name: "19", image: "/angka/tes.gif" },
   { name: "20", image: "/angka/tes.gif" },
+  { name: "puluh", image: "/angka/tes.gif" },
+  { name: "ratus", image: "/angka/tes.gif" },
+  { name: "puluh", image: "/angka/tes.gif" },
 ];
